@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/29c9f6d431.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <div class="main-body">
+        <div class="row">
+            <div class="col user-col" id="user-col">
+                <div class="name">
+                    <h2 id="user-name">Player</h2>
+                </div>
+                <div class="weapon">
+                    <img src="Images/man.png" alt="User" class="weapon-img" id="user-weapon">
+                </div>
+                <div class="result">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar" id="user-progress" aria-valuemax="100"></div>
+                    </div>
+                    <div>
+                        <h3 id="user-progress-val">100%</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col computer-col" id="computer-col">
+                <div class="name" id="computer-name">
+                    <h2>Computer</h2>
+                </div>
+                <div class="weapon">
+                    <img src="Images/robot.png" alt="Computer" class="weapon-img" id="computer-weapon">
+                </div>
+                <div class="result">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar" id="computer-progress" aria-valuemax="100"></div>
+                    </div>
+                    <div>
+                        <h3 id="computer-progress-val">100%</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="weapon-btn">
+            <h2 class="your-weapon">Your Weapons</h2>
+            <button class="btn btn-r weaponBtn" value="0" id="rock">Rock</button>
+            <button class="btn btn-p weaponBtn" value="1" id="paper">Paper</button>
+            <button class="btn btn-s weaponBtn" value="2" id="scissor">Scissor</button>
+        </div>
+        <div class="start-button">
+            <button class="btn btn-start" id="start-button">Start</button>
+        </div>
+        <div class="winner" id="winner">
+            <h2 id="winner-name"></h2>
+            <button class="btn restart-btn" id="restart-btn">Restart</button>
+        </div>
+        <!-- <p class="copyright"><a href="https://ramprasadmanna.github.io/Mock-Portfolio/" target="_blank">© Ramprasad</a>
+        </p> -->
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="tictactoe.js"></script>
+</body>
+
+</html>

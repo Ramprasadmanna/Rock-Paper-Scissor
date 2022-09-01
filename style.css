@@ -1,0 +1,244 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* ------------------------------------ Progress-Bar -------------------------------- */
+
+.progress-bar-bg {
+    border-radius: 5px;
+    padding: 0;
+    background: rgb(194, 192, 192);
+    width: 100%;
+}
+
+.progress-bar {
+    height: 15px;
+    width: 100%;
+    background: blue;
+    border-radius: 5px;
+}
+
+/* ---------------------------------------------------------------------------------------*/
+
+.main-body {
+    height: 550px;
+    width: 900px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #F5F5FA;
+    border-radius: 30px;
+    position: relative;
+}
+
+/* .col {
+    margin-top: 10px;
+    border: 1px solid;
+} */
+
+.col {
+    text-align: center;
+    margin: 10px 40px 0 40px;
+    border-radius: 10px;
+    width: 350px;
+    display: inline-block;
+
+    /* background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff; */
+}
+
+
+.name {
+    padding: 15px 0;
+}
+
+.weapon {
+    /* border: 1px solid; */
+    padding: 48px 0;
+}
+
+.weapon-img {
+    height: 100px;
+    width: 100px;
+}
+
+.result {
+    padding: 10px 65px;
+    /* border: 1px solid; */
+}
+
+.winner {
+    display: none;
+}
+
+#winner-name {
+    margin: 20px 0 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.copyright {
+    position: absolute;
+    bottom: 15px;
+    margin: 0 395px;
+    color: #000;
+}
+
+.copyright:hover {
+    font-weight: 500;
+}
+
+
+/* --------------------------------- Buttons ----------------------------------- */
+.start-button {
+    padding: 50px 0;
+    display: block;
+}
+
+.btn-start {
+    background: rgba(0, 0, 248, 0.667);
+    color: white;
+}
+
+.btn-start:hover {
+    background: rgba(68, 68, 248, 0.667);
+}
+
+
+.weapon-btn {
+    /* border: 1px solid blue; */
+    padding: 0 0 15px 0;
+    display: none;
+}
+
+.your-weapon {
+    padding: 10px;
+    margin: 0 0 30px 0;
+}
+
+.btn {
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin: 0 70px;
+    cursor: pointer;
+}
+
+.btn-r {
+    background: rgb(239, 88, 88);
+}
+
+.btn-r:hover {
+    background: rgb(247, 58, 58);
+}
+
+.btn-p {
+    background: rgb(80, 230, 80);
+}
+
+.btn-p:hover {
+    background: rgb(41, 221, 41);
+}
+
+.btn-s {
+    background: rgb(27, 156, 196);
+}
+
+.btn-s:hover {
+    background: rgb(8, 166, 215);
+}
+
+.restart-btn {
+    background: #0fe4b9;
+}
+
+.restart-btn:hover {
+    background: #45cdb1;
+}
+
+/* ----------------------------------------------- */
+
+/* Responsive */
+@media (max-width:400px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .main-body {
+        height: 665px;
+        width: 345px;
+        border-radius: 20px;
+
+    }
+
+    .col {
+        text-align: center;
+        margin: 10px 10px 0px 10px;
+        border-radius: 10px;
+        width: 250px;
+    }
+
+    .name {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .weapon {
+        padding: 30px 0;
+    }
+
+    .weapon-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .start-button {
+        padding: 0;
+        display: block;
+    }
+
+    .your-weapon {
+        padding: 10px;
+        margin: 0 0 10px 0;
+        font-size: 20px;
+    }
+
+    .result {
+        padding: 0 35px;
+    }
+
+    #winner-name {
+        margin: 20px 0 20px 0;
+        font-size: 18px;
+    }
+
+    .btn {
+        border: none;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        border-radius: 4px;
+        padding: 7px 14px;
+        margin: 0 15px;
+        cursor: pointer;
+    }
+
+
+}
