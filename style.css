@@ -182,7 +182,7 @@ a {
     }
 
     .main-body {
-        height: 665px;
+        height: 685px;
         width: 345px;
         border-radius: 20px;
 
@@ -240,5 +240,12 @@ a {
         cursor: pointer;
     }
 
+        .copyright {
+        position: absolute;
+        bottom: 10px;
+        margin: 0 127px;
+        color: #000;
+        font-size: 13px;
+    }
 
 }
