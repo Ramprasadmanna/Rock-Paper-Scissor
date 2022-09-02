@@ -24,9 +24,9 @@ var Final_name = "Player";
 
 
 // Taking Player Name
-// var user_name = prompt("Enter Your Name : ");
-// Final_name = user_name[0].toUpperCase() + user_name.slice(1);
-// document.getElementById("user-name").innerHTML = Final_name;
+var user_name = prompt("Enter Your Name : ");
+Final_name = user_name[0].toUpperCase() + user_name.slice(1);
+document.getElementById("user-name").innerHTML = Final_name;
 
 //Random Number Generator
 function random(range) {
